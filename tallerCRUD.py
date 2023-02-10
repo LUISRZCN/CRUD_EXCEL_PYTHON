@@ -133,19 +133,19 @@ while True:
     print('Indique la tarea que desea consultar:\nTodas las tareas: 1\nEn espera: 2\nEN ejecucion: 3\nPor aprobar: 4\nFinalizada: 5')
     opcConsulta=input('Escriba la tarea que desee consultar: ')
     if opcConsulta=='1':
-      print('\n\n** Consultado todas las tareas **')
+      print('\n\n** Consultando todas las tareas **')
       leer(rut,'todo')
     elif opcConsulta=='2':
-      print('\n\n** Consultado todas las tareas **')
+      print('\n\n** Consultando las tareas en espera **')
       leer(rut,'En espera')
     elif opcConsulta=='3':
-      print('\n\n** Consultado todas las tareas **')
+      print('\n\n** Consultando las tareas en ejecucion **')
       leer(rut,'En ejecucion')
     elif opcConsulta=='4':
-      print('\n\n** Consultado todas las tareas **')
+      print('\n\n** Consultando las tareas por aprobar **')
       leer(rut,'Por aprobar')
     elif opcConsulta=='5':
-      print('\n\n** Consultado todas las tareas **')
+      print('\n\n** Consultando todas las tareas finalizadas **')
       leer(rut,'Finalizada')
   elif accion==2:
     datosActualizados={'titulo':'','descripcion':'','estado':'','fecha inicio':'','fecha finalizacion':''}
